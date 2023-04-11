@@ -7,7 +7,7 @@ main = do
   num1 <- readLn :: IO Double
   putStrLn "Digite outro número:"
   num2 <- readLn :: IO Double
-  putStrLn "Escolha uma operação:"
+  putStrLn "Escolha uma operação: "
   putStrLn "1 - Adição"
   putStrLn "2 - Subtração"
   putStrLn "3 - Multiplicação"
