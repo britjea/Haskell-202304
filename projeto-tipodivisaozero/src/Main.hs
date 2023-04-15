@@ -1,3 +1,8 @@
+-- haskell-language-server.readthedocs.io/en/latest/features.html#demos
+-- https://www.haskell.org/ghcup/install/
+-- https://github.com/haskell/vscode-haskell
+-- https://replit.com/@JeanPierre51/Projeto-tipo31#Main.hs
+-- https://www.haskell.org/ghcup/
 {-# LANGUAGE DataKinds #-}
 {-# LANGUAGE GADTs #-}
 {-# LANGUAGE TypeFamilies #-}
