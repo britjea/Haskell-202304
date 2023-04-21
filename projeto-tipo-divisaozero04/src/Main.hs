@@ -1,4 +1,6 @@
-data NonZero a where
+data NonZero
+
+ NonZero a where
   NonZero :: Double -> NonZero { value :: Double | value /= 0}
 
 division :: Double -> NonZero Double -> Double
