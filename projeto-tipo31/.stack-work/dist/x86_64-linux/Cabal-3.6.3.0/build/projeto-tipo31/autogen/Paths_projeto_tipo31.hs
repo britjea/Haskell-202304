@@ -42,12 +42,12 @@ getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: 
 
 
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
-bindir     = "/home/jeanpierre/Documentos/Haskell/projeto-tipo31/.stack-work/install/x86_64-linux/be32de3b2a69c48480532973db88fbb685eceac21f2a1462479b6273f72a8e48/9.2.7/bin"
-libdir     = "/home/jeanpierre/Documentos/Haskell/projeto-tipo31/.stack-work/install/x86_64-linux/be32de3b2a69c48480532973db88fbb685eceac21f2a1462479b6273f72a8e48/9.2.7/lib/x86_64-linux-ghc-9.2.7/projeto-tipo31-0.1.0.0-KFFEOzXdlypCrlUqUOQBD4-projeto-tipo31"
-dynlibdir  = "/home/jeanpierre/Documentos/Haskell/projeto-tipo31/.stack-work/install/x86_64-linux/be32de3b2a69c48480532973db88fbb685eceac21f2a1462479b6273f72a8e48/9.2.7/lib/x86_64-linux-ghc-9.2.7"
-datadir    = "/home/jeanpierre/Documentos/Haskell/projeto-tipo31/.stack-work/install/x86_64-linux/be32de3b2a69c48480532973db88fbb685eceac21f2a1462479b6273f72a8e48/9.2.7/share/x86_64-linux-ghc-9.2.7/projeto-tipo31-0.1.0.0"
-libexecdir = "/home/jeanpierre/Documentos/Haskell/projeto-tipo31/.stack-work/install/x86_64-linux/be32de3b2a69c48480532973db88fbb685eceac21f2a1462479b6273f72a8e48/9.2.7/libexec/x86_64-linux-ghc-9.2.7/projeto-tipo31-0.1.0.0"
-sysconfdir = "/home/jeanpierre/Documentos/Haskell/projeto-tipo31/.stack-work/install/x86_64-linux/be32de3b2a69c48480532973db88fbb685eceac21f2a1462479b6273f72a8e48/9.2.7/etc"
+bindir     = "/home/jeanpierre/Documentos/Haskell-202304/projeto-tipo31/.stack-work/install/x86_64-linux/be32de3b2a69c48480532973db88fbb685eceac21f2a1462479b6273f72a8e48/9.2.7/bin"
+libdir     = "/home/jeanpierre/Documentos/Haskell-202304/projeto-tipo31/.stack-work/install/x86_64-linux/be32de3b2a69c48480532973db88fbb685eceac21f2a1462479b6273f72a8e48/9.2.7/lib/x86_64-linux-ghc-9.2.7/projeto-tipo31-0.1.0.0-KFFEOzXdlypCrlUqUOQBD4-projeto-tipo31"
+dynlibdir  = "/home/jeanpierre/Documentos/Haskell-202304/projeto-tipo31/.stack-work/install/x86_64-linux/be32de3b2a69c48480532973db88fbb685eceac21f2a1462479b6273f72a8e48/9.2.7/lib/x86_64-linux-ghc-9.2.7"
+datadir    = "/home/jeanpierre/Documentos/Haskell-202304/projeto-tipo31/.stack-work/install/x86_64-linux/be32de3b2a69c48480532973db88fbb685eceac21f2a1462479b6273f72a8e48/9.2.7/share/x86_64-linux-ghc-9.2.7/projeto-tipo31-0.1.0.0"
+libexecdir = "/home/jeanpierre/Documentos/Haskell-202304/projeto-tipo31/.stack-work/install/x86_64-linux/be32de3b2a69c48480532973db88fbb685eceac21f2a1462479b6273f72a8e48/9.2.7/libexec/x86_64-linux-ghc-9.2.7/projeto-tipo31-0.1.0.0"
+sysconfdir = "/home/jeanpierre/Documentos/Haskell-202304/projeto-tipo31/.stack-work/install/x86_64-linux/be32de3b2a69c48480532973db88fbb685eceac21f2a1462479b6273f72a8e48/9.2.7/etc"
 
 getBinDir     = catchIO (getEnv "projeto_tipo31_bindir")     (\_ -> return bindir)
 getLibDir     = catchIO (getEnv "projeto_tipo31_libdir")     (\_ -> return libdir)

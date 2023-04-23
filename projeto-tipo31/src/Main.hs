@@ -19,11 +19,11 @@ f x = length $ show x <> " Unidades"
 --
 --instance Ord Money where
 --  (MkMoney x) <= (MkMoney y) = x <= y
-newtype Money = MkMoney Int deriving (Num, Eq, Ord)
+type Money = Int
 
 withdraw :: Money -> Money -> Money
 withdraw account qty
-  | account < qty = error "Are You trying to roba bank?"
+  | account < qty = error "Nao pode"
   | otherwise     = account - qty
 
 main :: IO ()
