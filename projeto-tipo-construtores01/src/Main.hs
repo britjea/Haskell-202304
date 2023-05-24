@@ -15,7 +15,7 @@ data Bands where
   deriving (Show)
 
 toInt :: Bands -> Int
-toInt B1 = 1
+toInt B1 = 10 
 toInt B2 = 2
 toInt B3 = 3
 toInt B4 = 4
@@ -33,7 +33,7 @@ subtractBands b1 b2 = abs $ toInt b1 - toInt b2
 
 main :: IO ()
 main = do
-  let resistor1 = metalResistor B5
+  let resistor1 = metalResistor B0
   let resistor2 = metalResistor B7
   putStrLn $ "Resistor 1: " ++ show resistor1
   putStrLn $ "Resistor 2: " ++ show resistor2

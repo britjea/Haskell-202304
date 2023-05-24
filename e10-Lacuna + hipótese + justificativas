@@ -1,0 +1,32 @@
+Em relação a minha Dissertação que tem o 
+
+Título:A Importância do desenvolvimento orientado a tipo na prevenção de erros operacionais.
+
+Introdução: O desenvolvimento orientado a tipo é uma abordagem no desenvolvimento de software que envolve a definição clara e estruturada dos tipos de dados utilizados no código-fonte. Em Haskell, uma linguagem de programação funcional, essa abordagem ganha destaque. 
+Ela busca prevenir erros operacionais por meio da especificação precisa dos tipos, evitando incompatibilidades e inconsistências que podem comprometer a funcionalidade e confiabilidade dos sistemas e aplicativos. Essa prática oferece diretrizes práticas para melhorar a qualidade e a confiabilidade dos programas, contribuindo para evitar falhas de funcionamento, perda de dados e prejuízos financeiros.
+
+Desenvolvimento orientado a tipo como abordagem para prevenção de erros operacionais em sistemas e aplicativos, estudos de caso e diretrizes práticas.
+O desenvolvimento orientado a tipo é uma abordagem que envolve a definição clara e estrita dos tipos de dados utilizados no código-fonte, o que pode reduzir a possibilidade de erros causados por incompatibilidade ou inconsistência de tipos.
+A prevenção de erros operacionais em sistemas e aplicativos é uma tarefa crítica e desafiadora, uma vez que esses erros podem levar a falhas de funcionamento, perda de dados e prejuízos financeiros.
+
+Motivação:O desenvolvimento orientado a tipo é uma abordagem que pode ser utilizada para prevenir esses erros e garantir a qualidade e a confiabilidade dos sistemas e aplicativos desenvolvidos. Essa abordagem envolve a definição clara e estrita dos tipos de dados utilizados no código-fonte, o que reduz a possibilidade de erros causados por incompatibilidade ou inconsistência de tipos.
+
+Objetivo: Analisar o desenvolvimento orientado a tipo como uma abordagem eficaz para prevenir erros operacionais em sistemas e aplicativos. Para isso, serão investigadas as principais causas de erros operacionais e como o desenvolvimento orientado a tipo pode ajudar a mitigá-las. Serão realizados estudos de caso e análises empíricas para avaliar a eficácia da abordagem em diferentes tipos de sistemas e aplicativos. Com base nos resultados obtidos, serão propostas diretrizes e boas práticas para a aplicação do desenvolvimento orientado a tipo na prevenção de erros operacionais. Além disso, a dissertação contribuirá para o avanço do conhecimento sobre o desenvolvimento orientado a tipo e sua relevância para a qualidade do software por meio de uma análise crítica e revisão da literatura existente.
+
+------------------------
+Lacuna
+Muito da literatura sobre desenvolvimento orientado a tipo pode focar na teoria e em casos simples, mas pode haver uma falta de estudos que examinem a eficácia desta abordagem em sistemas complexos, em tempo real, ou em ambientes de software críticos para a segurança, como sistemas avançados de controle de tráfego aéreo, de veículos autônomos ou sistema financeiro.
+
+
+Hipotese
+A aplicação do desenvolvimento orientado a tipo em ambientes de software complexos, em tempo real, e críticos para a segurança, como sistemas avançados de controle de tráfego aéreo, de veículos autônomos ou sistema financeiro, poderá resultar numa redução significativa de erros operacionais.
+
+Esta hipótese será verificada através da comparação de sistemas que utilizam o desenvolvimento orientado a tipo com sistemas que não o utilizam, dentro de contextos similares. Serão analisados os erros operacionais observados nos dois grupos, e os resultados serão quantitativamente avaliados.
+
+A expectativa é que o grupo de sistemas desenvolvidos com a abordagem orientada a tipo apresente uma menor quantidade de erros operacionais quando comparado ao grupo de sistemas que não adotou tal abordagem.
+
+
+Justificativa da Hipotese.
+Os resultados podem fornecer uma base para o estabelecimento de melhores práticas de desenvolvimento de software, incentivando o uso mais amplo do desenvolvimento orientado a tipo para prevenir erros operacionais.
+
+

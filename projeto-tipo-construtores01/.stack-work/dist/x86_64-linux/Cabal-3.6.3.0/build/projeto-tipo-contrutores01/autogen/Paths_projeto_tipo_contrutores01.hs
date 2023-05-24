@@ -42,12 +42,12 @@ getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: 
 
 
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
-bindir     = "/home/jeanpierre/Documentos/Haskell-202304/projeto-tipo-contrutores01/.stack-work/install/x86_64-linux/942d5e58d9232e3326e4a030588719943afce7a660a81df71cfb6ad600f62524/9.2.7/bin"
-libdir     = "/home/jeanpierre/Documentos/Haskell-202304/projeto-tipo-contrutores01/.stack-work/install/x86_64-linux/942d5e58d9232e3326e4a030588719943afce7a660a81df71cfb6ad600f62524/9.2.7/lib/x86_64-linux-ghc-9.2.7/projeto-tipo-contrutores01-0.1.0.0-Jeeorvt3PCk3zAZ6Is1Vzo-projeto-tipo-contrutores01"
-dynlibdir  = "/home/jeanpierre/Documentos/Haskell-202304/projeto-tipo-contrutores01/.stack-work/install/x86_64-linux/942d5e58d9232e3326e4a030588719943afce7a660a81df71cfb6ad600f62524/9.2.7/lib/x86_64-linux-ghc-9.2.7"
-datadir    = "/home/jeanpierre/Documentos/Haskell-202304/projeto-tipo-contrutores01/.stack-work/install/x86_64-linux/942d5e58d9232e3326e4a030588719943afce7a660a81df71cfb6ad600f62524/9.2.7/share/x86_64-linux-ghc-9.2.7/projeto-tipo-contrutores01-0.1.0.0"
-libexecdir = "/home/jeanpierre/Documentos/Haskell-202304/projeto-tipo-contrutores01/.stack-work/install/x86_64-linux/942d5e58d9232e3326e4a030588719943afce7a660a81df71cfb6ad600f62524/9.2.7/libexec/x86_64-linux-ghc-9.2.7/projeto-tipo-contrutores01-0.1.0.0"
-sysconfdir = "/home/jeanpierre/Documentos/Haskell-202304/projeto-tipo-contrutores01/.stack-work/install/x86_64-linux/942d5e58d9232e3326e4a030588719943afce7a660a81df71cfb6ad600f62524/9.2.7/etc"
+bindir     = "/home/jeanpierre/Documentos/Haskell-202304/projeto-tipo-construtores01/.stack-work/install/x86_64-linux/942d5e58d9232e3326e4a030588719943afce7a660a81df71cfb6ad600f62524/9.2.7/bin"
+libdir     = "/home/jeanpierre/Documentos/Haskell-202304/projeto-tipo-construtores01/.stack-work/install/x86_64-linux/942d5e58d9232e3326e4a030588719943afce7a660a81df71cfb6ad600f62524/9.2.7/lib/x86_64-linux-ghc-9.2.7/projeto-tipo-contrutores01-0.1.0.0-Jeeorvt3PCk3zAZ6Is1Vzo-projeto-tipo-contrutores01"
+dynlibdir  = "/home/jeanpierre/Documentos/Haskell-202304/projeto-tipo-construtores01/.stack-work/install/x86_64-linux/942d5e58d9232e3326e4a030588719943afce7a660a81df71cfb6ad600f62524/9.2.7/lib/x86_64-linux-ghc-9.2.7"
+datadir    = "/home/jeanpierre/Documentos/Haskell-202304/projeto-tipo-construtores01/.stack-work/install/x86_64-linux/942d5e58d9232e3326e4a030588719943afce7a660a81df71cfb6ad600f62524/9.2.7/share/x86_64-linux-ghc-9.2.7/projeto-tipo-contrutores01-0.1.0.0"
+libexecdir = "/home/jeanpierre/Documentos/Haskell-202304/projeto-tipo-construtores01/.stack-work/install/x86_64-linux/942d5e58d9232e3326e4a030588719943afce7a660a81df71cfb6ad600f62524/9.2.7/libexec/x86_64-linux-ghc-9.2.7/projeto-tipo-contrutores01-0.1.0.0"
+sysconfdir = "/home/jeanpierre/Documentos/Haskell-202304/projeto-tipo-construtores01/.stack-work/install/x86_64-linux/942d5e58d9232e3326e4a030588719943afce7a660a81df71cfb6ad600f62524/9.2.7/etc"
 
 getBinDir     = catchIO (getEnv "projeto_tipo_contrutores01_bindir")     (\_ -> return bindir)
 getLibDir     = catchIO (getEnv "projeto_tipo_contrutores01_libdir")     (\_ -> return libdir)
